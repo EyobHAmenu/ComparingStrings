@@ -20,6 +20,9 @@ public class CompStr {
         else if (answer.equalsIgnoreCase("snow"))
         {
             System.out.println("Wear a coat and take a shovel!");
+        }
+        else if(answer.equalsIgnoreCase("stormy")){
+            System.out.println("You should stay inside");
         } else {
             System.out.println("Enjoy your day!");
         }
